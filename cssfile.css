@@ -1,0 +1,44 @@
+body {
+  	background-color: #800020;
+}
+
+h1 {
+	/*this color is gold*/
+  	color: #FFD700; 
+  	text-align: center;
+}
+
+p {
+	color: #FFD700;
+  	font-family: sans-serif;
+  	font-size: 20px;
+}
+ul {
+	color: white;
+	font-family: sans-serif;
+	font-size: 30px
+}
+#upleft { 
+	float:left; 
+   	width: 33%; 
+   	height: 100%; 
+   	/*background:red; */
+}
+
+#upright { 
+	float:left
+   	width: 67%; 
+   	height: 30%; 
+   	/*background:blue; */
+}
+#below { 
+	float:left
+   	height: 67%; 
+   	width: 70%; 
+   	/*background:green */
+}
+#bottomright {
+	float: right;
+	height: 67%; 
+	width: 35% ;
+}
