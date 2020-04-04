@@ -24,11 +24,13 @@ public class MapExample {
 		}
 		
 		for(Map.Entry<String, String> entry: deptNames.entrySet()) {
-					
-					System.out.println(entry.getKey()+ " : " + entry.getValue());
-				}
+			
+			System.out.println(entry.getKey()+ " : " + entry.getValue());
+		}
 		
+		br.close();
 	}
+	
 	
 	public int getFileLength(BufferedReader br) throws IOException {
 		
