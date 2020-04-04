@@ -31,7 +31,6 @@ public class MapExample {
 		br.close();
 	}
 	
-	
 	public int getFileLength(BufferedReader br) throws IOException {
 		
 		int count = 0;
@@ -45,10 +44,5 @@ public class MapExample {
 		}
 		
 		return count;
-		
 	}
-		
-	
-		
-
 }
