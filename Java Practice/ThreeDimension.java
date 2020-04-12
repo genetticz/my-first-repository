@@ -2,6 +2,8 @@ package datastructure_problems;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ThreeDimension {
 	
@@ -21,7 +23,17 @@ public class ThreeDimension {
 		
 //		taxRates.size();
 		
-		System.out.println("Size of the arrayList is " + taxRates.size());
+//		System.out.println("Size of the arrayList is " + taxRates.size());
+		
+		Map<String, ArrayList> mapDemo = new HashMap<>();
+		
+		mapDemo.put("first", arrL);
+		
+		mapDemo.forEach((k, v) -> {
+			
+			System.out.println(k + "  " + v);
+		});
+		
 	}
 	
 	public void demoFirst() {
