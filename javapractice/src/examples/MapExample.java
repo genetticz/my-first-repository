@@ -10,7 +10,7 @@ public class MapExample {
 	
 	public static void main(String[] args) throws IOException {
 		
-		BufferedReader br = new BufferedReader(new FileReader("csvcontent.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("csvcontent.csv"));
 		Map<String, String> deptNames = new HashMap<>();
 		String currentLine = "";
 		

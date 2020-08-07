@@ -11,7 +11,7 @@ import java.util.List;
 public class CsvParsing {
 
     public static void main(String[] args) throws IOException {
-        Iterator<Object[]> it = parseCsvData(System.getProperty("user.dir")+"/src/examples/csvcontent.txt");
+        Iterator<Object[]> it = parseCsvData(System.getProperty("user.dir")+"/src/examples/csvcontent.csv");
         it.next();
         System.out.println(it.next()[0] + " " + it.next()[1]);
     }
